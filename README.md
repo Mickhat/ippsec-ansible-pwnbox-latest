@@ -38,17 +38,17 @@ scroll down to the page and add this line bottom of the file
 
 * Run below commands:
 
-$sudo apt update && sudo apt full-upgrade
+`$sudo apt update && sudo apt full-upgrade`
 
-$git clone https://github.com/zer0dac/ippsec-ansible-pwnbox-latest.git
+`$git clone https://github.com/zer0dac/ippsec-ansible-pwnbox-latest.git`
 
-$cd ippsec-ansible-pwnbox-latest/parrot-build
+`$cd ippsec-ansible-pwnbox-latest/parrot-build`
 
-$pip3 install ansible --break-system-packages
+`$pip3 install ansible --break-system-packages`
 
-$ansible-galaxy install -r requirements.yml
+`$ansible-galaxy install -r requirements.yml`
 
-$ansible-playbook main.yml
+`$ansible-playbook main.yml`
 
 * (in the burpsuite part, it will pop-up screen because its your first burpsuite opening, open burpsuite with default settings, I designed it that way because if some java version change, this ansible still will be usable)
 
